@@ -1,0 +1,53 @@
+{
+    "name": "@devloco/react-scripts-wptheme-utils",
+    "version": "3.2.0-wp.2",
+    "description": "Utilities used by react-scripts-wptheme.",
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devloco/react-scripts-wptheme-utils.git"
+    },
+    "keywords": [
+        "wordpress",
+        "create-react-app",
+        "wordpress-theme",
+        "wordpress-development",
+        "wordpress-starter-theme",
+        "wordpress-api",
+        "reactjs",
+        "react",
+        "react-theme",
+        "wordpress-server",
+        "react-tutorial",
+        "react-wordpress-themes",
+        "php"
+    ],
+    "author": "devloco",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devloco/react-scripts-wptheme-utils/issues"
+    },
+    "homepage": "https://github.com/devloco/react-scripts-wptheme-utils#readme",
+    "files": [
+        "fileFunctions.js",
+        "fileWatcherPlugin.js",
+        "getUserConfig.js",
+        "postInstallerInfo.js",
+        "wpThemeClient.js",
+        "wpThemeServer.js",
+        "shell-js.js"
+    ],
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "chokidar": "^3.2.1",
+        "shelljs": "^0.8.3",
+        "fs-extra": "^8.1.0",
+        "ws": "^7.1.2"
+    },
+    "devDependencies": {}
+}
